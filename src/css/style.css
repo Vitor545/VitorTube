@@ -7,6 +7,10 @@
           box-sizing: border-box;
 }
 
+body {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #5a5a5a;
@@ -16,6 +20,7 @@ img {
   cursor: pointer;
 }
 
+/*-----------NAV----------*/
 .flex-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,6 +37,9 @@ nav {
           justify-content: space-between;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   z-index: 10;
 }
 
@@ -71,5 +79,73 @@ nav {
   border: 0;
   outline: 0;
   background: transparent;
+}
+
+/*-----------BARRALATERAL----------*/
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+}
+
+.shortcut-links a img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.shortcut-links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child {
+  color: #FF0000;
+}
+
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 85%;
+}
+
+.subscribed-list h3 {
+  font-size: 13px;
+  margin: 20px 0;
+  color: #5a5a5a;
+}
+
+.subscribed-list a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.subscribed-list a img {
+  width: 26px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
