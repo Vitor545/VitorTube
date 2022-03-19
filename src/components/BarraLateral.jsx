@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import { TubeContexts } from '../contexts/TubeContexts';
 import Home from '../img/home.png';
 import Explorar from '../img/explore.png';
 import Inscricoes from '../img/subscriprion.png';
@@ -14,8 +15,9 @@ import Megan from '../img/megan.png';
 import Cameron from '../img/cameron.png';
 
 export default function BarraLateral() {
+  const { small } = useContext(TubeContexts);
   return(
-    <div className="sidebar">
+    <div className={`sidebar ${small ? 'small-sidebar' : ''}`}>
       <div className="shortcut-links">
         <a href=""><img src={Home} alt="home"/><p>Home</p></a>
         <a href=""><img src={Explorar} alt="explorar"/><p>Explorar</p></a>
