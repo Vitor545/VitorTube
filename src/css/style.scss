@@ -43,3 +43,25 @@ nav {
   width: 22px;
   margin-right: 26px;
 }
+
+.nav-left .logo {
+  width: 130px;
+}
+
+.sizenav-icon {
+  width: 16px;
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}

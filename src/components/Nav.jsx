@@ -5,6 +5,8 @@ import Upload from '../img/upload.png';
 import More from '../img/more.png';
 import Notifications from '../img/notification.png';
 import Vitor from '../img/Vitor.png';
+import Search from '../img/search.png';
+import Mic from '../img/voice-search.png';
 
 export default function Nav() {
   return(
@@ -13,7 +15,13 @@ export default function Nav() {
         <img src={Menu} alt="menu" className="menu-icon"/>
         <img src={Logo} alt="logo" className="logo"/>
       </div>
-      <div className="nav-middle"></div>
+      <div className="nav-middle flex-div">
+        <div className="search-box flex-div">
+          <input type="text" placeholder="Pesquisar"/>
+          <img src={Search} alt="search" className="sizenav-icon"/>
+        </div>
+        <img src={Mic} alt="mic" className="sizenav-icon"/>
+      </div>
       <div className="nav-right flex-div">
         <img src={Upload} alt="upload"/>
         <img src={More} alt="more"/>
