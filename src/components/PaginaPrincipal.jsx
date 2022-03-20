@@ -11,14 +11,14 @@ export default function PaginaPrincipal() {
           <img src={Banner} alt="banner" />
         </div>
         <div className="list-container">
-          <VideoThumb />
-          <VideoThumb />
-          <VideoThumb />
-          <VideoThumb />
-          <VideoThumb />
-          <VideoThumb />
-          <VideoThumb />
-          <VideoThumb />
+          <VideoThumb isThumb={true} />
+          <VideoThumb isThumb={true}/>
+          <VideoThumb isThumb={true}/>
+          <VideoThumb isThumb={true}/>
+          <VideoThumb isThumb={true}/>
+          <VideoThumb isThumb={true}/>
+          <VideoThumb isThumb={true} />
+          <VideoThumb isThumb={true} />
         </div>
       </div>
   );
