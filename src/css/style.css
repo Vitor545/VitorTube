@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 
 a {
@@ -98,6 +98,12 @@ nav {
   background: #fff;
   padding-left: 2%;
   padding-top: 80px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .shortcut-links a img {
@@ -278,6 +284,7 @@ nav {
 
 .side-video-list img {
   width: 100%;
+  border-radius: 6%;
 }
 
 .side-video-list .small-thumbnail {

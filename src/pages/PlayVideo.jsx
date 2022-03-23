@@ -1,14 +1,14 @@
 import React from 'react';
 import Video from '../video/video.mp4'
-import Nav from './Nav.jsx';
-import VideoP from './Video';
+import Nav from '../components/Nav.jsx';
+import VideoP from '../components/Video';
 import Thumb1 from '../img/thumbnail1.png';
 import Like from '../img/like.png';
 import Deslike from '../img/dislike.png';
 import Save from '../img/save.png';
 import Share from '../img/share.png';
 import Jack from '../img/Jack.png';
-
+import Comentarios from '../components/Comentarios.jsx'
 
 export default function PlayVideo() {
   return (
@@ -54,139 +54,99 @@ export default function PlayVideo() {
               <img src={Jack} alt="jack" />
               <input type="text" placeholder="Adicione um comentário" />
             </div>
-            <div className="old-comment">
-              <img src={Jack} alt="jack" />
-              <div>
-                <h3>Jack Nicholson <span>2 dias atrás</span></h3>
-                <p>
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor 
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-                </p>
-                <div className="acomment-action">
-                  <img src={Like} alt="like" />
-                  <span>244</span>
-                  <img src={Deslike} alt="deslike" />
-                  <span>2</span>
-                  <span>RESPONDER</span>
-                  <a href=''>Todas as respostas</a>
-                </div>
-              </div>
-            </div>
-            <div className="old-comment">
-              <img src={Jack} alt="jack" />
-              <div>
-                <h3>Jack Nicholson <span>2 dias atrás</span></h3>
-                <p>
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor 
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-                </p>
-                <div className="acomment-action">
-                  <img src={Like} alt="like" />
-                  <span>244</span>
-                  <img src={Deslike} alt="deslike" />
-                  <span>2</span>
-                  <span>RESPONDER</span>
-                  <a href=''>Todas as respostas</a>
-                </div>
-              </div>
-            </div>
-            <div className="old-comment">
-              <img src={Jack} alt="jack" />
-              <div>
-                <h3>Jack Nicholson <span>2 dias atrás</span></h3>
-                <p>
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor 
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-                  lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-                </p>
-                <div className="acomment-action">
-                  <img src={Like} alt="like" />
-                  <span>244</span>
-                  <img src={Deslike} alt="deslike" />
-                  <span>2</span>
-                  <span>RESPONDER</span>
-                  <a href=''>Todas as respostas</a>
-                </div>
-              </div>
-            </div>
+            <Comentarios />
+            <Comentarios />
+            <Comentarios />
           </div>
         </div>
         <div className="right-sidebar">
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+    
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+   
           </div>
 
           <div className="side-video-list">
             <a href="" className="small-thumbnail"><img src={Thumb1} alt="recomendation"/></a>
-            <VideoP />    
+            <VideoP titulo={'Channel that makes learning easy'} canal={'Easy Tutorials'} />    
+    
           </div>
 
         </div>

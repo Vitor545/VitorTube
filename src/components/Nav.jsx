@@ -18,7 +18,7 @@ export default function Nav() {
     <nav className="flex-div">
       <div className="nav-left flex-div">
         <img src={Menu} alt="menu" className='menu-icon' onClick={onClickMenu}/>
-        <img src={Logo} alt="logo" className="logo"/>
+        <img href="" src={Logo} alt="logo" className="logo"/>
       </div>
       <div className="nav-middle flex-div">
         <div className="search-box flex-div">

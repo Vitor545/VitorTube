@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { TubeContexts } from '../contexts/TubeContexts';
 
-export default function Video() {
+export default function Video(props) {
   const { state, setStateGlobal } = useContext(TubeContexts);
   const onClickVideo = () => {
     setStateGlobal({ ...state, video: true });
@@ -9,8 +9,8 @@ export default function Video() {
   return(
     <React.Fragment>
       <div className="vid-info">
-        <a onClick={onClickVideo}>Melhor canal para aprender codificação</a>
-        <p>Easy Tutorials</p>
+        <a onClick={onClickVideo}>{props.titulo}</a>
+        <p>{props.canal}</p>
         <p>15 mil visualizações &bull; 2 dias</p>
       </div>
     </React.Fragment>
