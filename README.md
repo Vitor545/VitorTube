@@ -80,7 +80,7 @@ npm start
 
 ## 🧠 Video de inspiração - créditos e agradecimentos.
 
-**Consegui implementar várias melhorias durante o desenvolvimento, além de passar o projeto para React.js em vez de HTML simples.**
+-Consegui implementar várias melhorias durante o desenvolvimento, além de passar o projeto para React.js em vez de HTML simples.
 
 [Easy Tutorials](https://www.youtube.com/watch?v=4ykAepVkG5Y)
 
