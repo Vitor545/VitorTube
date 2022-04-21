@@ -67,7 +67,7 @@
 
 ```bash
 git clone git@github.com:Vitor545/VitorTube.git
-cd VitorSTunes
+cd VitorTube
 npm i
 npm start 
 ```
