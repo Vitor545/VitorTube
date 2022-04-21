@@ -85,3 +85,6 @@ npm start
 [Easy Tutorials](https://www.youtube.com/watch?v=4ykAepVkG5Y)
 
 <br/>
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
