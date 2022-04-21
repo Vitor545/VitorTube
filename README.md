@@ -66,7 +66,7 @@
 📋 Copie as linhas de código e cole no terminal.
 
 ```bash
-git clone git@github.com:Vitor545/VitorSTunes.git
+git clone git@github.com:Vitor545/VitorTube.git
 cd VitorSTunes
 npm i
 npm start 
@@ -80,7 +80,7 @@ npm start
 
 ## 🧠 Video de inspiração - créditos e agradecimentos.
 
--Consegui implementar várias melhorias durante o desenvolvimento, além de passar o projeto para React.js em vez de HTML simples.
+- Consegui implementar várias melhorias durante o desenvolvimento, além de passar o projeto para React.js em vez de HTML simples.
 
 [Easy Tutorials](https://www.youtube.com/watch?v=4ykAepVkG5Y)
 
